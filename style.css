@@ -1,0 +1,75 @@
+/* ============================================================
+   CONSIGNES COMMUNES (À NE PAS MODIFIER)
+   ============================================================ */
+:root {
+    --couleur-fond: #ffffff;
+    --couleur-menu: #333333;
+    --couleur-texte: #222222;
+    --police-titre: 'Helvetica', sans-serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--couleur-fond);
+    color: var(--couleur-texte);
+    margin: 0;
+    padding: 0;
+}
+
+/* Menu de navigation commun à tous */
+nav {
+    background-color: var(--couleur-menu);
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Conteneur pour vos pages (centrage auto) */
+.page-container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+/* Style des images selon la convention p1_01.png */
+.capture-img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    margin: 10px 0;
+}
+
+/* ============================================================
+   ZONES PERSONNALISÉES (Chacun écrit dans sa partie)
+   ============================================================ */
+
+/* --- NATHAN --- */
+.titre-perso-chef {
+    color: #e67e22; /* Une couleur orange pour tes titres à toi */
+    border-left: 5px solid #e67e22;
+    padding-left: 10px;
+} 
+
+/* --- MEMBRE 2 --- */
+.prenom2-nom2 { }
+
+/* --- MEMBRE 3 --- */
+.prenom3-nom3 { }
+
+/* --- MEMBRE 4 --- */
+.prenom4-nom4 { }
+
+/* --- MEMBRE 5 --- */
+.prenom5-nom5 { }
